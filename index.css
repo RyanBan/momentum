@@ -8,7 +8,7 @@ body::-webkit-scrollbar{
 
 .greeting{
     position: absolute;
-    background: url('./assets/cover2.jpg') no-repeat center/cover;
+    background-color: rgb(44, 42, 42);
     top:100%;
     left: 0;
     display: flex;
