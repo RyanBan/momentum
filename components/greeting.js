@@ -32,7 +32,7 @@ function handleSubmit(event){
 function paintGreeting(text){
     content2.style.display = "block";
     content2.innerText = "Hi " + text + "!";
-    greeting.style.animation = "fadein 7s";
+    greeting.style.animation = "fadein 5s";
 
     greeting.addEventListener('animationend', function(event){
         if (event.type === "animationend"){
