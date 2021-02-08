@@ -13,7 +13,6 @@ function finishToDO(event){
         //check finished status
         let selectedTaskFromTODOS = toDos.find(function(todo){return (todo.id == div.id)});
         if(!selectedTaskFromTODOS.finished){
-            console.log("clicked");
             //save finished task
             selectedTaskFromTODOS.finished = true;
             saveToDos();
@@ -22,8 +21,6 @@ function finishToDO(event){
             //draw line on list
            toDoList.childNodes.forEach(function(child){
                 if(child.id == div.id){
-                    console.log(div);
-                    console.log(child);
                     child.style.textDecoration = "line-through";
                 }
             });

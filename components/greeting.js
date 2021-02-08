@@ -45,11 +45,9 @@ function loadName(){
     const currentUser = localStorage.getItem(USER_LS);
     if(currentUser === null){
         //show greeting page
-        console.log("show");
     }else{
-        showOnNoteCover(currentUser);
         greeting.style.display = "none";
-        console.log("hide");
+        showOnNoteCover(currentUser);
     }
 }
 function init(){

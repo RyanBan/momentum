@@ -4,7 +4,6 @@ function showQuote(data){
   const span = document.createElement("span");
   const quote = data.quotes[0].text;
   const author = data.quotes[0].author;
-  console.log(quote + author);
   span.innerText = `"${quote}" -${author}`;
   quoteContainer.appendChild(span);
 }
