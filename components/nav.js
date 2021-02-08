@@ -1,8 +1,8 @@
 const postBtn = document.querySelector(".postBtn");
 const noteBtn = document.querySelector(".noteBtn");
 
-const post = document.querySelector(".content");
-const note = document.querySelector(".setting");
+const post = document.querySelector(".postSection");
+const note = document.querySelector(".noteSection");
 
 let currentView = "noteView"
 window.addEventListener("wheel", e => e.preventDefault(), { passive:false })
